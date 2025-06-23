@@ -29,7 +29,7 @@ def load_lottieurl(url: str):
         return None
     return r.json()
 
-lottie_coding = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_7umuas8r.json")  # Exemple d’animation
+lottie_coding = load_lottieurl("https://assets4.lottiefiles.com/packages/lf20_x62chJ.json")  # Exemple d’animation
 st_lottie(
     lottie_coding,
     speed=1, 
