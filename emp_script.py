@@ -29,7 +29,7 @@ def load_lottieurl(url: str):
         return None
     return r.json()
 
-lottie_coding = load_lottiefile("C:\\Users\\beugre\\Desktop\\work.json")
+lottie_coding = load_lottiefile("hello.json")
 st_lottie(
     lottie_coding,
     speed=1, 
