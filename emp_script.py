@@ -399,9 +399,9 @@ if st.session_state.avance_salaire_clicked:
 
 @st.cache_data
 def charger_donnees():
-    employes = pd.read_excel("C:\\Users\\beugre\\Desktop\\base_employes.xlsx", sheet_name="Employes")
-    absences = pd.read_excel("C:\\Users\\beugre\\Desktop\\base_employes.xlsx", sheet_name="Absences")
-    formations = pd.read_excel("C:\\Users\\beugre\\Desktop\\base_employes.xlsx", sheet_name="Formations")
+    employes = pd.read_excel("base_employes.xlsx", sheet_name="Employes")
+    absences = pd.read_excel("base_employes.xlsx", sheet_name="Absences")
+    formations = pd.read_excel("base_employes.xlsx", sheet_name="Formations")
     return employes, absences, formations
 
 employes, absences, formations = charger_donnees()
